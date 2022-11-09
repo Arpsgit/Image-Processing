@@ -6,3 +6,4 @@
 ## 2. Magic Square using C 
 ## 3. Image reader using C
 ## 4. Negative transformer of an image using C
+## 5. Log transformation of an image using C
