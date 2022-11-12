@@ -10,3 +10,5 @@
 ## 6. Image reader using Python
 ## 7. Negative transformer of an image using Python
 ## 8. Log transformation of an image using Python
+## 9. Bit plane slicing of an image using Python
+## 10. Bit plane slicing of an image using C
