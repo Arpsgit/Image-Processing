@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 
 int bitPlane(int pixel, int plane){
     for(int i = 0; i < plane - 1; i++){
