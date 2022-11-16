@@ -12,3 +12,5 @@
 ## 8. Log transformation of an image using Python
 ## 9. Bit plane slicing of an image using Python
 ## 10. Bit plane slicing of an image using C
+## 11. Contrast streching of a low contrast image using Python
+## 12. Contrast streching of a low contrast image using C
