@@ -14,3 +14,5 @@
 ## 10. Bit plane slicing of an image using C
 ## 11. Contrast streching of a low contrast image using Python
 ## 12. Contrast streching of a low contrast image using C
+## 13. Thresholding of an image using Python
+## 14. Thresholding of an image using C
