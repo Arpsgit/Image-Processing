@@ -16,3 +16,4 @@
 ## 12. Contrast streching of a low contrast image using C
 ## 13. Thresholding of an image using Python
 ## 14. Thresholding of an image using C
+## 15. Histogram Equalization of an image using Python
