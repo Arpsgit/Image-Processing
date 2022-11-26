@@ -35,7 +35,6 @@ void main(){
             }
         }
     }
-    //printf("max %f, min %f\n", max_pixel, min_pixel);
 	q = fopen("highContrastImage.pgm","w");
 	fprintf(q, "%s\n", a);
 	fprintf(q, "%s\n", b);
