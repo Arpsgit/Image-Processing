@@ -7,7 +7,7 @@ void main(){
 	int col;
 	int row;
 	int max;
-	p = fopen("panda.pgm", "r");
+	p = fopen("mypic.pgm", "r");
 	fscanf(p, "%s\n", a);
 	fscanf(p, "%[^\n]\n", b);
 	fscanf(p, "%d %d\n", &col, &row);
@@ -19,7 +19,7 @@ void main(){
 		}	
 	}
 	fclose(p);
-	q = fopen("negarpan.pgm","w");
+	q = fopen("negmypic.pgm","w");
 	fprintf(q, "%s\n", a);
 	fprintf(q, "%s\n", b);
 	fprintf(q, "%d %d\n", col, row);
