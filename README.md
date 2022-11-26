@@ -17,3 +17,4 @@
 ## 13. Thresholding of an image using Python
 ## 14. Thresholding of an image using C
 ## 15. Histogram Equalization of an image using Python
+## 16. Histogram Equalization of an image using C
