@@ -9,7 +9,7 @@ int main(){
 	int max_one, max_two;
     // We should use two images of same dimension.
 
-	p_one = fopen("panda.pgm", "r");
+	p_one = fopen("mypic.pgm", "r");
 	fscanf(p_one, "%s\n", a1);
 	fscanf(p_one, "%[^\n]\n", b1);
 	fscanf(p_one, "%d %d\n", &col_one, &row_one);
@@ -17,7 +17,7 @@ int main(){
 	int img_one[row_one][col_one];
 	for(int i = 0; i< row_one; i++){
 		for(int j = 0; j<col_one; j++){
-			fscanf(p_one,"%d\n", &img[i][j]);		
+			fscanf(p_one,"%d\n", &img_one[i][j]);		
 		}	
 	}
 	fclose(p_one);
@@ -30,7 +30,7 @@ int main(){
 	int img_two[row_two][col_two];
 	for(int i = 0; i< row_two; i++){
 		for(int j = 0; j<col_two; j++){
-			fscanf(p_two,"%d\n", &img[i][j]);		
+			fscanf(p_two,"%d\n", &img_two[i][j]);		
 		}	
 	}
 	fclose(p_two);
@@ -43,7 +43,7 @@ int main(){
         return 0;
     }
 
-	q = fopen("arpan.pgm","w");
+	q = fopen("output.pgm","w");
 	fprintf(q, "P2\n");
 	fprintf(q, "# CREATOR: Arpan Manna\n");
 	fprintf(q, "%d %d\n", col, row);
@@ -57,10 +57,14 @@ int main(){
                 else{
                     fprintf(q,"%d\n", img_two[i][j]);
                 }
-                fprintf(q,"%d\n", img[i][j]);
             }
             else{
-                if()
+                if(img_one[i][j] < 128){
+					fprintf(q,"%d\n", img_two[i][j]);
+				}
+				else{
+					fprintf(q,"%d\n", img_one[i][j]);
+				}
             }
 					
 		}	
