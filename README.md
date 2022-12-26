@@ -20,3 +20,5 @@
 ## 16. Histogram Equalization of an image using C
 ## 17. Salt Pepper Noise using python
 ## 18. Salt Pepper Noise using C
+## 19. OR operation on two pictures using C
+## 20. OR operation on two pictures using Python
