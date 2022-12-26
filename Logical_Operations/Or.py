@@ -1,7 +1,7 @@
-with open('Logical_Operations\panda.pgm', 'r') as picture:
+with open('panda.pgm', 'r') as picture:
     element1 = picture.readlines()
 
-with open('Logical_Operations\mypic.pgm', 'r') as picture:
+with open('mypic.pgm', 'r') as picture:
     element2 = picture.readlines()
 
 with open('output3.pgm', 'w') as out:
