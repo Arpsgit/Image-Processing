@@ -25,3 +25,4 @@
 ## 21. AND operation on two Pictures using C
 ## 22. AND operation on two Pictures using Python 
 ## 23. XOR operation on two Pictures using C
+## 24. XOR operation on two Pictures using Python
