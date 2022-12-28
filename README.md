@@ -22,3 +22,4 @@
 ## 18. Salt Pepper Noise using C
 ## 19. OR operation on two pictures using C
 ## 20. OR operation on two pictures using Python
+## 21. AND operation on two Pictures using C
