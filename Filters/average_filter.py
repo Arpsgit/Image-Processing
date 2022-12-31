@@ -12,7 +12,7 @@ def avg_filter(pixel, start, filter_size):
 
     return new_pixel
 
-filter_size = int(input("Enter the filter size: "))
+filter_size = int(input("Enter the filter size: ")) # enter a filter size of odd number.
 row = int(element[2].replace('\n', '').split()[1])
 col = int(element[2].replace('\n', '').split()[0])
 pixel = np.zeros((row + filter_size - 1, col + filter_size - 1))
