@@ -28,3 +28,4 @@
 ## 24. XOR operation on two Pictures using Python
 ## 25. Average filter operation on an Image using Python
 ## 26. Max filter operation on an Image using Python
+## 27. Min filter operation on an Image using Python
