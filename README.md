@@ -31,3 +31,4 @@
 ## 27. Min filter operation on an Image using Python
 ## 28. Average filter operation on an Image using C
 ## 29. Power Law transformation using C
+## 30. Power Law transformation using Python
