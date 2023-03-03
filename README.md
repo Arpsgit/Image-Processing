@@ -32,3 +32,4 @@
 ## 28. Average filter operation on an Image using C
 ## 29. Power Law transformation using C
 ## 30. Power Law transformation using Python
+## 31. Median Filter Operation on an Image using Python
